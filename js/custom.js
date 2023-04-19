@@ -108,13 +108,13 @@
         }
         if ($('.gallery-list').length) {
             $('.gallery-list').owlCarousel({
-                loop: false,
+                loop: true,
                 nav: false,
                 dots: true,
                 items: 3,
                 autoplay: true,
-                smartSpeed: 700,
-                autoplayTimeout: 4000,
+                smartSpeed: 900,
+                autoplayTimeout: 7000,
                 responsive: {
                     0: {
                         items: 1,
